@@ -6,6 +6,7 @@ import VStack from "../Components/Basic/VStack/VStack";
 import EventInfo from "../Components/HomeSections/EventInfo";
 import DirectionSection from "../Components/HomeSections/DirectionSection";
 import GallerySection from "../Components/HomeSections/GallerySection";
+import GallerySliderShow from "../Components/HomeSections/GallerySliderShow";
 
 const Home: NextPage = () => {
   return (
@@ -18,9 +19,10 @@ const Home: NextPage = () => {
 
       <VStack className="gap-[2rem]">
         <Banner />
-        <TimerSection />
+        <GallerySliderShow />
+        {/* <TimerSection />
         <EventInfo />
-        <DirectionSection />
+        <DirectionSection /> */}
         <GallerySection />
       </VStack>
     </div>

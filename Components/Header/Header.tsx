@@ -13,7 +13,7 @@ export default function Header() {
       <ul className="text-white flex gap-[1rem] px-[1rem] py-[1rem] ">
         <li className="cursor-pointer text-basic">Home</li>
         <li className="cursor-pointer text-basic">Gallery</li>
-        <li className="cursor-pointer text-basic">Getting Here</li>
+        {/* <li className="cursor-pointer text-basic">Getting Here</li> */}
       </ul>
     </div>
   );
